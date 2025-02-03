@@ -16,9 +16,9 @@ jobs:
             - name: Construindo e publicando a imagem
               uses: docker/build-push-action@v1.1.0
               with: 
-                username: blgianinis
+                username: blgianini
                 password: ${{ secrets.DOCKER_PASSWORD }}
-                repository: blgianinis/nodeapp
+                repository: blgianini/nodeapp
                 tags: ${{ github.sha }}, latest
     
     deply:
