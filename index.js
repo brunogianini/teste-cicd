@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send({message: "Olá mundo!"})
+    res.send({message: "Olá canal deploy!"})
 })
 
 app.listen(8080, () => {
